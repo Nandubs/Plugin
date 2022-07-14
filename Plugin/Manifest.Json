@@ -1,0 +1,19 @@
+{
+    "manifest_version" : 2,
+    "name":"Acho, where are we ?",
+    "version":"0.1.0",
+    "description":"Show the the page where we are",
+
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "24": "images/icon24.png",
+            "32": "images/icon32.png"
+        }
+    },
+    "permissions": [
+        "tabs"
+    ]
+
+}
